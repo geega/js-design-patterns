@@ -2,16 +2,16 @@ version:  '3'
 
 services:
   builder: 
-    build: docker/build/builder
+    build: docker/builder
     volumes:
-      - ./src:/usr/src/app
+      - ./src/ts:/usr/src/app
     restart: always
     tty: true
-  main:
-    build: .
-    volumes:
-      - ./src:/usr/src/app
-      #- /usr/src/app/node_modules # if need access to container volumes
-    restart: always
-    tty: true
-    command: sh
+  # main:
+  #   build: .
+  #   volumes:
+  #     - ./src:/usr/src/app
+  #     #- /usr/src/app/node_modules # if need access to container volumes
+  #   restart: always
+  #   tty: true
+  #   command: sh
