@@ -1,0 +1,1 @@
+{"version":3,"file":"Creator.js","sourceRoot":"","sources":["../../../../Creational/FactoryMethod/CreateProduct/Creator.ts"],"names":[],"mappings":";;AAAA;;;;GAIG;AACH,MAAsB,OAAO;IAOzB;;;;;;OAMG;IACI,aAAa;QAChB,sDAAsD;QACtD,MAAM,OAAO,GAAG,IAAI,CAAC,aAAa,EAAE,CAAC;QACrC,wBAAwB;QACxB,OAAO,yDAAyD,OAAO,CAAC,SAAS,EAAE,EAAE,CAAC;IAC1F,CAAC;CACJ;AApBD,0BAoBC"}

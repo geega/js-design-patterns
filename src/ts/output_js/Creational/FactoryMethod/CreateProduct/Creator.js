@@ -1,13 +1,11 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * The Creator class declares the factory method that is supposed to return an
  * object of a Product class. The Creator's subclasses usually provide the
  * implementation of this method.
  */
-var Creator = /** @class */ (function () {
-    function Creator() {
-    }
+class Creator {
     /**
      * Also note that, despite its name, the Creator's primary responsibility is
      * not creating products. Usually, it contains some core business logic that
@@ -15,12 +13,12 @@ var Creator = /** @class */ (function () {
      * indirectly change that business logic by overriding the factory method
      * and returning a different type of product from it.
      */
-    Creator.prototype.someOperation = function () {
+    someOperation() {
         // Call the factory method to create a Product object.
-        var product = this.factoryMethod();
+        const product = this.factoryMethod();
         // Now, use the product.
-        return "Creator: The same creator's code has just worked with " + product.operation();
-    };
-    return Creator;
-}());
+        return `Creator: The same creator's code has just worked with ${product.operation()}`;
+    }
+}
 exports.Creator = Creator;
+//# sourceMappingURL=Creator.js.map
