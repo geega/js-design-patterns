@@ -3,7 +3,7 @@
       "lib": ["es6"],
       "strict": true,
       "outDir" : "output_js",
-      "types" : ["node"], 
+      "types" : ["jest", "node"], 
       "module": "commonjs",
      "sourceMap": true,
      "target": "es2015"
